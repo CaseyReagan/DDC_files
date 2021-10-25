@@ -1,0 +1,17 @@
+﻿生成启动时间为 2020/3/23 16:38:37。
+     1>项目“F:\program_files\ddc\ddc\ddc.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\vs2012\VC\bin\CL.exe /c /IF:\program_files\ddc\ddc /I"C:\Program Files (x86)\Intel\IPP\6.1.2.041\ia32\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ddc.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ddc.cpp
+         ddc.cpp
+     1>f:\program_files\ddc\ddc\ddc.cpp(28): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\program_files\ddc\ddc\ddc.cpp(72): warning C4101: “monitor”: 未引用的局部变量
+       Link:
+         F:\vs2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\program_files\ddc\Debug\ddc.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Intel\IPP\6.1.2.041\ia32\stublib" "C:\Program Files (x86)\Intel\IPP\6.1.2.041\ia32\stublib\ipp*.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\program_files\ddc\Debug\ddc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\program_files\ddc\Debug\ddc.lib" /MACHINE:X86 Debug\ddc.res
+         Debug\ddc.obj
+         Debug\stdafx.obj
+         ddc.vcxproj -> F:\program_files\ddc\Debug\ddc.exe
+     1>已完成生成项目“F:\program_files\ddc\ddc\ddc.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.70
